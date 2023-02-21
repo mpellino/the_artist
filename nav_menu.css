@@ -1,0 +1,20 @@
+.nav-menu-container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.dropdown-button {
+    background-color: transparent;
+    color: #217be7;
+    font-size: 22px;
+    border: none;
+    font-family: 'futura', monospace;
+}
+
+.dropdown-button > a {
+    text-decoration: none;
+    color: #217be7;
+}
