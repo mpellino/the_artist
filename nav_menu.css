@@ -6,6 +6,15 @@
     justify-content: space-around;
 }
 
+.dropdown { /* this is the ancestor of  dropdown-button and dropdown-menu.   */
+    position: relative; /* so we can absolutely position the menu  */
+}
+
+.dropdown-button > a {
+    text-decoration: none;
+    color: #217be7;
+}
+
 .dropdown-button {
     background-color: transparent;
     color: #217be7;
@@ -14,7 +23,20 @@
     font-family: 'futura', monospace;
 }
 
-.dropdown-button > a {
+.dropdown-menu {
+    position: absolute; /* so we can absolutely position it relative to the ancestor ".dropdown" */
+    width: 100px;
+    left: -25px; /* this is the distance from the left edge of the menu to the left edge of the button */
+    text-align: center;
+    border: #217be7 solid 1px;
+    background-color: #ecf4fd;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+}
+
+.dropdown-menu > a {
     text-decoration: none;
     color: #217be7;
+    font-family: 'futura', monospace;
 }
