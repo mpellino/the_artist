@@ -30,6 +30,7 @@
     cursor: pointer;
 }
 .dropdown-menu {
+    background-color: white;
     position: absolute; /* so we can absolutely position it relative to the ancestor ".dropdown" */
     width: 200px;
     left: -75px; /* this is the distance from the left edge of the menu to the left edge of the button */
