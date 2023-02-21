@@ -23,20 +23,17 @@
     font-family: 'futura', monospace;
 }
 
-.dropdown-button > a:focus,
-.dropdown-button:focus,
-.dropdown-button > a:hover,
-.dropdown-button:hover {
+.dropdown.active > .dropdown-button,
+.dropdown-button:hover,
+.dropdown-button > a:hover {
     color: #061e3a;
     cursor: pointer;
 }
 .dropdown-menu {
     position: absolute; /* so we can absolutely position it relative to the ancestor ".dropdown" */
-    width: 100px;
-    left: -25px; /* this is the distance from the left edge of the menu to the left edge of the button */
+    width: 200px;
+    left: -75px; /* this is the distance from the left edge of the menu to the left edge of the button */
     text-align: center;
-    border: #217be7 solid 1px;
-    background-color: #ecf4fd;
     padding: .75rem;
     pointer-events: none;
     border-radius: .25rem;
@@ -44,15 +41,25 @@
     opacity: 0;
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
     transform: translateY(-10px);
+    z-index: 2;
 }
 
 .dropdown-menu > a {
+    display: block;
     text-decoration: none;
     color: #217be7;
     font-family: 'futura', monospace;
+    font-size: inherit;
+    padding: 2px;
+    margin: 20px 0;
+
 }
 
-.dropdown> .dropdown-button:focus + .dropdown-menu {
+.dropdown-menu > a:hover {
+    color: #061e3a;
+}
+
+.dropdown.active > .dropdown-button+ .dropdown-menu {
     opacity: 1;
     transform: translateY(0px);
     pointer-events: auto;

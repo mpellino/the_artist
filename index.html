@@ -6,11 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta lang="en">
         <meta name="Author" content="Pellino Marco">
-        <meta name="keywords" content="art,photography,design">
+        <meta name="keywords" content="art,photography,design,illustrations">
         <link rel="stylesheet"  href="general.css">
         <link rel="stylesheet"  href="logo.css">
         <link rel="stylesheet"  href="nav_menu.css">
         <link rel="stylesheet"  href="work.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div class="logo-container">
@@ -18,18 +19,24 @@
         </div>
         <div class="nav-menu-container">
             <div class="dropdown">
-                <button class="dropdown-button"><a href="about.html">About</a></button>
+                <button class="dropdown-button" ><a href="about.html">About</a></button>
             </div>
-            <div class="dropdown">
-                <button class="dropdown-button">Work</button>
+            <div class="dropdown" data-dropdown>
+                <button class="dropdown-button" data-dropdown-button> Work</button>
                     <div class="dropdown-menu">
-                        <a href="#">Photography</a>
-                        <a href="#">Design</a>
-                        <a href="#">Art</a>
+                        <a href="#">Interior Projects</a>
+                        <a href="#">Interior Photography</a>
+                        <a href="#">Exterior Photography</a>
+                        <a href="#">Illustrations</a>
                     </div>
             </div>
-            <div class="dropdown">
-                <button class="dropdown-button">Social</button>
+            <div class="dropdown" data-dropdown>
+                <button class="dropdown-button" data-dropdown-button >Social</button>
+                <div class="dropdown-menu">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Tic Tok</a>
+                </div>
             </div>
             <div class="dropdown">
                 <button class="dropdown-button"><a href="about.html">Contact</a></button>
