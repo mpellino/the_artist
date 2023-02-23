@@ -4,13 +4,13 @@
 
 .arrow {
     margin: 0 100px 0 0;
-    color: #217be7;
+    color: #3366FF;
     rotate: 180deg;
     align-self: center;
 }
 
 .arrow > a {
     text-decoration: none;
-    color: #217be7;
+    color: #3366FF;
     font-size: x-large;
 }

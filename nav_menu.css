@@ -12,12 +12,12 @@
 
 .dropdown-button > a {
     text-decoration: none;
-    color: #217be7;
+    color: #3366FF;
 }
 
 .dropdown-button {
     background-color: transparent;
-    color: #217be7;
+    color: #3366FF;
     font-size: 22px;
     border: none;
     font-family: 'futura', monospace;
@@ -48,7 +48,7 @@
 .dropdown-menu > a {
     display: block;
     text-decoration: none;
-    color: #217be7;
+    color: #3366FF;
     font-family: 'futura', monospace;
     font-size: inherit;
     padding: 2px;
