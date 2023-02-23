@@ -1,0 +1,16 @@
+.nav-menu-container.about {
+    justify-content: center; !important;
+}
+
+.arrow {
+    margin: 0 100px 0 0;
+    color: #217be7;
+    rotate: 180deg;
+    align-self: center;
+}
+
+.arrow > a {
+    text-decoration: none;
+    color: #217be7;
+    font-size: x-large;
+}
