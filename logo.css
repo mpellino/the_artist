@@ -1,10 +1,13 @@
 .logo-container {
     top: 100px;
+    left: 100px;
     margin: 100px auto 50px;
-    width: 300px
+    width: 300px;
+    transform: translateX(6%);
 
 }
 
 .logo-image {
-    width: 100%;
+    width: 80%;
+    height: auto;
 }
