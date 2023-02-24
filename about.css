@@ -14,3 +14,17 @@
     color: #3366FF;
     font-size: x-large;
 }
+
+.about-text-container {
+    margin: 50px auto 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-text-container p {
+    color: #3366FF;
+    font-size: 18px;
+    text-align: justify;
+}
