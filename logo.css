@@ -12,3 +12,7 @@
     height: auto;
     margin: auto;
 }
+
+.logo-image.active {
+    animation: logo-spin 1s linear infinite;
+}
