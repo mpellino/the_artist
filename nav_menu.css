@@ -23,6 +23,12 @@
     font-family: 'futura', monospace;
 }
 
+.section-head{
+    font-size: 22px;
+    font-family: 'futura', monospace;
+    color: #3366FF;
+}
+
 .dropdown.active > .dropdown-button,
 .dropdown-button:hover,
 .dropdown-button > a:hover {
