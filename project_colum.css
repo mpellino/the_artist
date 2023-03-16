@@ -1,14 +1,14 @@
-.work-container {
+.work-container-project{
     margin: 120px auto 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 70%;
-    justify-content: center;
+    align-items: center;
 
 }
 
-.image-container {
+.image-container-project{
     margin: 5px 5px 50px 5px;
     width: calc(50%);
     max-width: 600px;
@@ -20,18 +20,15 @@
 
 }
 
-.image-container img {
+.image-container-project img {
     max-width: 100%;
     max-height: 100%;
 
 }
 
-.image-text p {
+.image-text-project p {
     color: #3366FF;
     font-size: 12px;
     text-align: center;
 }
 
-img {
-
-}
