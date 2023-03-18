@@ -9,11 +9,11 @@
 }
 
 .image-container-project{
-    margin: 5px 5px 50px 5px;
+    margin: 5px 5px 5px 5px;
     width: calc(50%);
     max-width: 600px;
     height: auto;
-    opacity: .75;
+    opacity: 1;
     flex-basis: calc(50% - 20px); /* set flex-basis to 33.33% */
     flex-shrink: 0; /* disable shrinking of the flex item */
     min-width: 300px;
