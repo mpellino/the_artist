@@ -1,5 +1,7 @@
 body {
     font-family: 'futura', monospace;
+    position: absolute;
+    width: 100vw;
 }
 
 footer {

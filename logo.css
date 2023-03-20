@@ -1,10 +1,10 @@
 .logo-container {
     margin: 75px auto 75px;
-    width: 300px;
+    width: 100%;
     display: flex;
     justify-content: center;
-
-
+    align-items: center;
+    text-align: center;
 }
 
 .logo-image {
