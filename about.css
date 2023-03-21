@@ -1,5 +1,7 @@
 .nav-menu-container.about {
     justify-content: center; !important;
+    width: fit-content;
+
 }
 
 .arrow {
@@ -7,6 +9,7 @@
     color: #3366FF;
     rotate: 180deg;
     align-self: center;
+
 }
 
 .arrow > a {
