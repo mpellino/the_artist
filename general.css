@@ -18,3 +18,11 @@ footer a {
     color: #3366FF;
     text-decoration: none;
 }
+
+div.project-title {
+    font-size: 12px;
+    color: #3366FF;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    text-align: center;
+}
