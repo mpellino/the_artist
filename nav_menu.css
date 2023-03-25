@@ -21,6 +21,8 @@
     font-size: 22px;
     border: none;
     font-family: 'futura', monospace;
+    margin: 0;
+    padding: 0;
 }
 
 .section-head{
