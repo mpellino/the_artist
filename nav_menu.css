@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     width: 310px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .dropdown { /* this is the ancestor of  dropdown-button and dropdown-menu.   */
@@ -17,7 +17,7 @@
 
 .dropdown-button {
     background-color: transparent;
-    color: rebeccapurple;
+    color: #3366FF;
     font-size: 22px;
     border: none;
     font-family: 'futura', monospace;
